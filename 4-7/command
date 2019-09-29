@@ -1,0 +1,10 @@
+ls -l a.out 
+./a.out a.out
+ls -l/ etc/uucp/Systems
+./a.out /etc/uucp/Systems
+su
+chown uucp a.out
+chmod u+s a.out
+ls -l a.out
+exit
+./a.out /etc/uucp/Systems
